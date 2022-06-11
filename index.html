@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/de3be52269.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Title -->
+
+    <section id="title">
+
+        <div class="container-fluid">
+
+
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link nav-linkcolor" href="#aboutme">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="#skill">Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-linkcolor" href="#contact">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+            <!-- Title -->
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <p>Hey, What's up?</p>
+                    <h1>I'am Gunjan, a Web Developer</h1>
+                    <a href="#contact"><button type="button" class="btn btn-outline-light btn-lg download-button">
+                         Contact me</button></a>
+                         <a href="#aboutme"><button type="button" class="btn btn-outline-light btn-lg download-button">
+                           About me</button></a>
+                           <a href="#skill"><button type="button" class="btn btn-outline-light btn-lg download-button">
+                            My Skills</button></a>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="title-image" src="images/Dp.jpg" alt="iphone-mockup">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Me Section -->
+
+    <section id="aboutme">
+        <div class="row">
+            <div class="col-lg-6">
+                <p>I am 19 year old self taught Front End Developer based in Nagpur, India.</p>
+                <p>Currently i am pursuing my B-tech in Computer Science Engineering from RCOEM, Nagpur.</p>
+                <p>I specialize in JAVA , my core skills are Java , HTML , CSS.</p>
+                <br>
+                <p>Want to know more? Drop me a line: <br><a class="mail-link" href="">nimbalkargunjan@gmail.com</a></p>
+
+                <p>Follow me on: <br>
+                    <a href=""><i class="fa-brands fa-github aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram aboutme-fa"></i></a>
+                </p>
+                
+                
+            </div>
+
+            <div class="col-lg-6">
+                <img class="aboutme-img" src="Images/software-developer.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skill">
+        <h1>Skills</h1>
+        <div id="carousel-Controls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-Controls" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-Controls" data-slide-to="1"></li>
+              <li data-target="#carousel-Controls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3 class="testimonial-text">JAVA Expert</h3>
+                <img class="skill-image1" src="images/java.jpg" alt="dog-profile">
+              </div>
+              <div class="carousel-item">
+                <h3 class="testimonial-text">Web Development</h3>
+                <img class="skill-image2" src="images/web-development.jpg" alt="lady-profile">
+              </div>
+              <div class="carousel-item">
+                <h3 class="testimonial-text">Expert in DSA</h3>
+                <img class="skill-image3" src="images/DSA.jpg" alt="lady-profile">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-Controls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-Controls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Gunjan Nimbalkar</p>
+            </div>
+
+            <div class="col-lg-4">
+                <p><a href="">nimbalkargunjan@gmail.com</a></p>
+            </div>
+
+            <div class="col-lg-4">
+                <a href=""><i class="fa-brands fa-github aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin aboutme-fa"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram aboutme-fa"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
